@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+<button type="button" class="control__close">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 10L20 20" stroke="#FF1700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20 10L10 20" stroke="#FF1700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+<!-- /.wrapper -->
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script>
+    $('.control__close').click(function (event) {
+    	console.log("?????")
+        event.preventDefault();
+
+        enableClosingConfirmation();
+    })
+</script>
+
+</body>
+</html>
